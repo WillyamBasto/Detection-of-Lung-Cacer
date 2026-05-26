@@ -1,9 +1,11 @@
 🧬 Detección de Adenocarcinoma y Carcinoma Escamoso mediante Inteligencia Artificial
 <p align="center"> <img width="800" height="300" alt="Banner del proyecto" src="https://github.com/user-attachments/assets/bf733ab1-91cf-449d-b77e-bc2d0d5ba124" /> </p>
-👨‍💻 Presentado por
+
+Presentado por
 William Fernando Basto — 2235607
 Brayan Miguel Carvajal — 2235602
-🎯 Objetivo del Proyecto
+
+Objetivo del Proyecto
 
 Desarrollar y comparar diferentes modelos de Inteligencia Artificial para la clasificación automática de imágenes histopatológicas en tres categorías:
 
