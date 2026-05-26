@@ -1,120 +1,63 @@
-<!DOCTYPE html>
-<html lang="es">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Detección de Adenocarcinoma y Carcinoma Escamoso</title>
+🧬 Detección de Adenocarcinoma y Carcinoma Escamoso mediante Inteligencia Artificial
+<p align="center"> <img width="800" height="300" alt="Banner del proyecto" src="https://github.com/user-attachments/assets/bf733ab1-91cf-449d-b77e-bc2d0d5ba124" /> </p>
+👨‍💻 Presentado por
+William Fernando Basto — 2235607
+Brayan Miguel Carvajal — 2235602
+🎯 Objetivo del Proyecto
 
-    <style>
-        body{
-            font-family: Arial, Helvetica, sans-serif;
-            background-color: #f4f6f9;
-            margin: 0;
-            padding: 0;
-            color: #222;
-        }
+Desarrollar y comparar diferentes modelos de Inteligencia Artificial para la clasificación automática de imágenes histopatológicas en tres categorías:
 
-        .container{
-            max-width: 900px;
-            margin: 50px auto;
-            background: white;
-            padding: 40px;
-            border-radius: 15px;
-            box-shadow: 0px 4px 15px rgba(0,0,0,0.1);
-        }
+Adenocarcinoma
+Carcinoma de células escamosas
+Tejido benigno
 
-        h1{
-            text-align: center;
-            color: #0b3d91;
-            font-size: 32px;
-            margin-bottom: 30px;
-        }
+Se evaluarán enfoques de aprendizaje:
 
-        .banner{
-            text-align: center;
-            margin-bottom: 35px;
-        }
+🔹 Supervisado
+🔹 No supervisado
 
-        .banner img{
-            width: 100%;
-            max-width: 800px;
-            border-radius: 12px;
-            box-shadow: 0px 4px 12px rgba(0,0,0,0.2);
-        }
+con el fin de analizar su desempeño, precisión y capacidad de separación entre clases.
 
-        h2{
-            color: #1f5fbf;
-            border-bottom: 2px solid #dce6f5;
-            padding-bottom: 8px;
-        }
+🩺 Descripción del Dataset
 
-        .authors{
-            margin: 25px 0;
-            padding: 20px;
-            background-color: #eef4ff;
-            border-left: 5px solid #0b3d91;
-            border-radius: 10px;
-        }
+El proyecto utiliza un conjunto de datos histopatológicos de pulmón compuesto por aproximadamente 15.000 imágenes RGB obtenidas mediante tinción Hematoxilina y Eosina (H&E).
 
-        .authors p{
-            margin: 8px 0;
-            font-size: 18px;
-        }
+📊 Distribución de clases
+Clase	Cantidad
+Adenocarcinoma	5.000
+Carcinoma Escamoso	5.000
+Benignas	5.000
+📦 Características del dataset
+Tamaño aproximado: 1.72 GB
+Imágenes a color real (RGB)
+Organización por carpetas según la clase
+Muestras histopatológicas validadas por profesionales de la salud
+Publicado originalmente por investigadores de la Universidad del Sur de Florida
+🔗 Dataset
 
-        .objective{
-            margin-top: 30px;
-            line-height: 1.8;
-            font-size: 18px;
-            text-align: justify;
-        }
+📁 Fuente oficial:
+https://datacollective.mozillafoundation.org/datasets/cmj8u3p26007dnxxbwyo07lb8#user-content-fn-1
 
-        .footer{
-            margin-top: 40px;
-            text-align: center;
-            color: #777;
-            font-size: 14px;
-        }
-    </style>
-</head>
+🧠 Tecnologías y Metodologías
 
-<body>
+Durante el desarrollo del proyecto se implementarán técnicas de:
 
-    <div class="container">
+Procesamiento de imágenes
+Reducción de dimensionalidad
+Aprendizaje supervisado
+Clustering y aprendizaje no supervisado
+Evaluación de métricas de clasificación
+📌 Resultados Esperados
+Identificación automática de patrones histopatológicos
+Comparación entre distintos modelos de IA
+Evaluación visual mediante métricas y gráficos
+Análisis del comportamiento de algoritmos supervisados y no supervisados
+🖼️ Ejemplo del Problema
 
-        <h1>
-            Detección de Adenocarcinoma y Carcinoma Escamoso en Imágenes Histopatológicas mediante Inteligencia Artificial
-        </h1>
+Las imágenes histopatológicas presentan patrones celulares complejos que dificultan su clasificación manual.
+El uso de modelos de Inteligencia Artificial busca asistir en la detección temprana y automatizada de cáncer pulmonar.
 
-        <!-- Imagen añadida después del título -->
-        <div class="banner">
-            <img 
-                src="https://github.com/user-attachments/assets/01fec007-95b6-4b95-bb77-90a3e1750ce9"
-                alt="Imagen del proyecto"
-            >
-        </div>
-
-        <div class="authors">
-            <h2>Presentado por</h2>
-
-            <p><strong>William Fernando Basto</strong> - 2235607</p>
-            <p><strong>Brayan Miguel Carvajal</strong> - 2235602</p>
-        </div>
-
-        <div class="objective">
-            <h2>Objetivo</h2>
-
-            <p>
-                Desarrollar y comparar modelos de Inteligencia Artificial para clasificar 
-                automáticamente imágenes histopatológicas en tres categorías, evaluando tanto 
-                enfoques supervisados como no supervisados.
-            </p>
-        </div>
-
-        <div class="footer">
-            Proyecto de Inteligencia Artificial - 2026
-        </div>
-
-    </div>
-
-</body>
-</html>
+📚 Referencias
+Dataset de Histopatología Pulmonar — Mozilla Foundation
+Investigación original de la Universidad del Sur de Florida
+Técnicas de Machine Learning y Deep Learning aplicadas a imágenes médicas
